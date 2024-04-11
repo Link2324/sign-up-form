@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Norse-Bold';
+    src: url(./fonts/Norse-Bold.otf);
+}
+
+h1 {
+    font-family: 'Norse-Bold';
+    color: #9dbeb7;
+}
