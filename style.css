@@ -111,6 +111,7 @@ input {
     border: 1px solid #E5E7EB;
     border-radius: 4px;
     height: 24px;
+    width: 200px;
 }
 
 input:focus {
