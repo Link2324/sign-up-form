@@ -77,6 +77,52 @@ body {
     z-index: 0;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
+}
+
+form h2 {
+    margin: 20px 0;
+}
+
+form > div {
+    display: flex;
+    gap: 72px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-size: 10px;
+    font-weight: bold;
+    color: rgb(80, 80, 80);
+    letter-spacing: 1px;
+    line-height: 120%;
+}
+
+form > div:last-child {
+    margin-bottom: 36px;
+}
+
+input {
+    appearance: none;
+    border: 1px solid #E5E7EB;
+    border-radius: 4px;
+    height: 24px;
+}
+
+input:focus {
+    border-color: blue;
+    box-shadow: inset 2px 2px 2px 0px rgb(221, 221, 222);
+    outline: none;
+}
+
+input[type="password"]:invalid, input[type="email"]:invalid {
+    border-color: red;
+}
+
 .submit {
     background-color: var(--main-background-color);
     flex: 1.2;
