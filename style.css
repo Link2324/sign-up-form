@@ -17,6 +17,8 @@
 
 body {
     display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
 }
 
 .sidebar {
@@ -43,6 +45,7 @@ body {
 .credit,
 .credit a {
     color: var(--credit-color);
+    font-weight:lighter;
 }
 
 .main {
@@ -66,4 +69,26 @@ body {
 .submit {
     background-color: var(--main-background-color);
     flex: 1.2;
+}
+
+.logo {
+    display: flex;
+    position: absolute;
+    top: 32%;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 16%;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+}
+
+.logo img {
+    height: 100%;
+}
+
+.logo h1 {
+    color: white;
+    font-size: 5rem;
+    font-family: "Norse-Bold";
 }
